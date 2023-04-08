@@ -4,6 +4,8 @@ There are three credit scores that banks and credit card companies use to label 
 It helps banks and credit card companies immediately to issue loans to customers with good creditworthiness and reduce the chances of fraud from its culstomers.
 I have used Random Forest algorithm to classify the customer based on their credit history in the database. 
 
+The following model is deployed on FLASK webservice.
+
 The following graphs are used to get idea relational between the variables
 
 Credit Scores Based on Occupation
