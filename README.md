@@ -6,6 +6,69 @@ I have used Random Forest algorithm to classify the customer based on their cred
 
 The following model is deployed on FLASK webservice.
 
+This project is a Flask-based web application that classifies credit scores using a machine learning model. Users can input their age, income, and loan amount to receive a prediction of their credit score status (good or bad).
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Project Details](#project-details)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Overview
+
+The goal of this project is to provide a simple web interface for predicting credit scores based on user inputs. The application uses a logistic regression model trained on a hypothetical dataset. This project aims to demonstrate how machine learning models can be integrated into web applications to provide real-time predictions.
+
+## Features
+
+- User-friendly web interface for inputting data.
+- Real-time prediction of credit score status.
+- Preprocessing and scaling of input data for accurate predictions.
+- Clear and informative result presentation.
+
+## Technologies Used
+
+- Python
+- Flask
+- Scikit-Learn
+- Pandas
+- Numpy
+- HTML
+- CSS
+
+## Project Details
+
+### Data Collection
+
+The application uses a hypothetical dataset (`credit_data.csv`) containing features such as age, income, and loan amount, which are relevant for credit score classification. The dataset is used to train a logistic regression model to distinguish between good and bad credit scores.
+
+### Data Preprocessing
+
+The data is preprocessed to handle missing values, scale numerical features, and split into training and testing sets. The preprocessing steps ensure the model performs well on unseen data.
+
+### Machine Learning Model
+
+A logistic regression model is chosen for its simplicity and effectiveness in binary classification tasks. The model is trained using the preprocessed data, and its performance is evaluated to ensure accuracy.
+
+### Web Application
+
+The Flask framework is used to create a web application that allows users to input their data and receive credit score predictions. The application consists of two main pages:
+- **Home Page**: A form where users can input their age, income, and loan amount.
+- **Result Page**: Displays the prediction result based on the user input.
+
+### Deployment
+
+The application is designed to be run locally. Detailed instructions are provided to set up the environment, train the model, and start the Flask server.
+
+## Contributing
+
+
 The following graphs are used to get idea relational between the variables
 
 Credit Scores Based on Occupation
